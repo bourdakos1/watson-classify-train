@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236483D421FA31540069710E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236483D321FA31540069710E /* AppDelegate.swift */; };
+		236483D621FA31540069710E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236483D521FA31540069710E /* ViewController.swift */; };
+		236483D921FA31540069710E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236483D721FA31540069710E /* Main.storyboard */; };
+		236483DC21FA31540069710E /* watson_classify_train.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 236483DA21FA31540069710E /* watson_classify_train.xcdatamodeld */; };
+		236483DE21FA31570069710E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236483DD21FA31570069710E /* Assets.xcassets */; };
+		236483E121FA31570069710E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236483DF21FA31570069710E /* LaunchScreen.storyboard */; };
+		236483EA21FA33E20069710E /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236483E921FA33E20069710E /* RestKit.framework */; };
+		236483EC21FA33F70069710E /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236483EB21FA33F70069710E /* VisualRecognitionV3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		236483D021FA31540069710E /* watson-classify-train.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watson-classify-train.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		236483D321FA31540069710E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		236483D521FA31540069710E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		236483D821FA31540069710E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		236483DB21FA31540069710E /* watson_classify_train.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = watson_classify_train.xcdatamodel; sourceTree = "<group>"; };
+		236483DD21FA31570069710E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		236483E021FA31570069710E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		236483E221FA31570069710E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236483E921FA33E20069710E /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		236483EB21FA33F70069710E /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		236483CD21FA31540069710E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236483EC21FA33F70069710E /* VisualRecognitionV3.framework in Frameworks */,
+				236483EA21FA33E20069710E /* RestKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		236483C721FA31540069710E = {
+			isa = PBXGroup;
+			children = (
+				236483D221FA31540069710E /* watson-classify-train */,
+				236483D121FA31540069710E /* Products */,
+				236483E821FA33E20069710E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		236483D121FA31540069710E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				236483D021FA31540069710E /* watson-classify-train.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		236483D221FA31540069710E /* watson-classify-train */ = {
+			isa = PBXGroup;
+			children = (
+				236483D321FA31540069710E /* AppDelegate.swift */,
+				236483D521FA31540069710E /* ViewController.swift */,
+				236483D721FA31540069710E /* Main.storyboard */,
+				236483DD21FA31570069710E /* Assets.xcassets */,
+				236483DF21FA31570069710E /* LaunchScreen.storyboard */,
+				236483E221FA31570069710E /* Info.plist */,
+				236483DA21FA31540069710E /* watson_classify_train.xcdatamodeld */,
+			);
+			path = "watson-classify-train";
+			sourceTree = "<group>";
+		};
+		236483E821FA33E20069710E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				236483EB21FA33F70069710E /* VisualRecognitionV3.framework */,
+				236483E921FA33E20069710E /* RestKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		236483CF21FA31540069710E /* watson-classify-train */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236483E521FA31570069710E /* Build configuration list for PBXNativeTarget "watson-classify-train" */;
+			buildPhases = (
+				236483CC21FA31540069710E /* Sources */,
+				236483CD21FA31540069710E /* Frameworks */,
+				236483CE21FA31540069710E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watson-classify-train";
+			productName = "watson-classify-train";
+			productReference = 236483D021FA31540069710E /* watson-classify-train.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		236483C821FA31540069710E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nicholas Bourdakos";
+				TargetAttributes = {
+					236483CF21FA31540069710E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 236483CB21FA31540069710E /* Build configuration list for PBXProject "watson-classify-train" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 236483C721FA31540069710E;
+			productRefGroup = 236483D121FA31540069710E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				236483CF21FA31540069710E /* watson-classify-train */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		236483CE21FA31540069710E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236483E121FA31570069710E /* LaunchScreen.storyboard in Resources */,
+				236483DE21FA31570069710E /* Assets.xcassets in Resources */,
+				236483D921FA31540069710E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236483CC21FA31540069710E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236483D621FA31540069710E /* ViewController.swift in Sources */,
+				236483D421FA31540069710E /* AppDelegate.swift in Sources */,
+				236483DC21FA31540069710E /* watson_classify_train.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		236483D721FA31540069710E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236483D821FA31540069710E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		236483DF21FA31570069710E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236483E021FA31570069710E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		236483E321FA31570069710E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		236483E421FA31570069710E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		236483E621FA31570069710E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGK2UJBFUH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "watson-classify-train/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bourdakos1.watson-classify-train";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		236483E721FA31570069710E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGK2UJBFUH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "watson-classify-train/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bourdakos1.watson-classify-train";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		236483CB21FA31540069710E /* Build configuration list for PBXProject "watson-classify-train" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236483E321FA31570069710E /* Debug */,
+				236483E421FA31570069710E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		236483E521FA31570069710E /* Build configuration list for PBXNativeTarget "watson-classify-train" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236483E621FA31570069710E /* Debug */,
+				236483E721FA31570069710E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		236483DA21FA31540069710E /* watson_classify_train.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				236483DB21FA31540069710E /* watson_classify_train.xcdatamodel */,
+			);
+			currentVersion = 236483DB21FA31540069710E /* watson_classify_train.xcdatamodel */;
+			path = watson_classify_train.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 236483C821FA31540069710E /* Project object */;
+}
