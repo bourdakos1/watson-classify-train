@@ -8,19 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		236483D421FA31540069710E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236483D321FA31540069710E /* AppDelegate.swift */; };
-		236483D621FA31540069710E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236483D521FA31540069710E /* ViewController.swift */; };
 		236483D921FA31540069710E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236483D721FA31540069710E /* Main.storyboard */; };
 		236483DC21FA31540069710E /* watson_classify_train.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 236483DA21FA31540069710E /* watson_classify_train.xcdatamodeld */; };
 		236483DE21FA31570069710E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236483DD21FA31570069710E /* Assets.xcassets */; };
 		236483E121FA31570069710E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236483DF21FA31570069710E /* LaunchScreen.storyboard */; };
-		236483EA21FA33E20069710E /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236483E921FA33E20069710E /* RestKit.framework */; };
-		236483EC21FA33F70069710E /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236483EB21FA33F70069710E /* VisualRecognitionV3.framework */; };
+		2364841A21FA45040069710E /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364840E21FA45040069710E /* SwiftSpinner.swift */; };
+		2364841B21FA45040069710E /* AKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364840F21FA45040069710E /* AKPickerView.swift */; };
+		2364841C21FA45040069710E /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364841021FA45040069710E /* ProgressBar.swift */; };
+		2364842921FA452C0069710E /* UIViewController+PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364842521FA452C0069710E /* UIViewController+PulleyViewController.swift */; };
+		2364842A21FA452C0069710E /* PulleyPassthroughScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364842621FA452C0069710E /* PulleyPassthroughScrollView.swift */; };
+		2364842B21FA452C0069710E /* PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364842721FA452C0069710E /* PulleyViewController.swift */; };
+		2364842C21FA452C0069710E /* UIView+constrainToParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364842821FA452C0069710E /* UIView+constrainToParent.swift */; };
+		2364842E21FA46BE0069710E /* VisualRecognition+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364842D21FA46BE0069710E /* VisualRecognition+Helpers.swift */; };
+		2364843321FA47700069710E /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364842F21FA47700069710E /* ResultsTableViewController.swift */; };
+		2364843421FA47700069710E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364843021FA47700069710E /* CameraViewController.swift */; };
+		2364843521FA47700069710E /* CameraViewController+Heatmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364843121FA47700069710E /* CameraViewController+Heatmap.swift */; };
+		2364843621FA47700069710E /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364843221FA47700069710E /* ResultsTableViewCell.swift */; };
+		2364843821FA4D6E0069710E /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 236483EB21FA33F70069710E /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2364843A21FA4D6E0069710E /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 236483E921FA33E20069710E /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2364844021FA55B90069710E /* ClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364843F21FA55B90069710E /* ClassifyViewController.swift */; };
+		2364844221FA6BCC0069710E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364844121FA6BCC0069710E /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2364843B21FA4D6F0069710E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2364843821FA4D6E0069710E /* VisualRecognitionV3.framework in Embed Frameworks */,
+				2364843A21FA4D6E0069710E /* RestKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		236483D021FA31540069710E /* watson-classify-train.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watson-classify-train.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		236483D321FA31540069710E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		236483D521FA31540069710E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		236483D821FA31540069710E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		236483DB21FA31540069710E /* watson_classify_train.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = watson_classify_train.xcdatamodel; sourceTree = "<group>"; };
 		236483DD21FA31570069710E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,6 +55,20 @@
 		236483E221FA31570069710E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		236483E921FA33E20069710E /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
 		236483EB21FA33F70069710E /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		2364840E21FA45040069710E /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
+		2364840F21FA45040069710E /* AKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKPickerView.swift; sourceTree = "<group>"; };
+		2364841021FA45040069710E /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		2364842521FA452C0069710E /* UIViewController+PulleyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PulleyViewController.swift"; sourceTree = "<group>"; };
+		2364842621FA452C0069710E /* PulleyPassthroughScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulleyPassthroughScrollView.swift; sourceTree = "<group>"; };
+		2364842721FA452C0069710E /* PulleyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulleyViewController.swift; sourceTree = "<group>"; };
+		2364842821FA452C0069710E /* UIView+constrainToParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+constrainToParent.swift"; sourceTree = "<group>"; };
+		2364842D21FA46BE0069710E /* VisualRecognition+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VisualRecognition+Helpers.swift"; sourceTree = "<group>"; };
+		2364842F21FA47700069710E /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		2364843021FA47700069710E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2364843121FA47700069710E /* CameraViewController+Heatmap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CameraViewController+Heatmap.swift"; sourceTree = "<group>"; };
+		2364843221FA47700069710E /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		2364843F21FA55B90069710E /* ClassifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyViewController.swift; sourceTree = "<group>"; };
+		2364844121FA6BCC0069710E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,8 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				236483EC21FA33F70069710E /* VisualRecognitionV3.framework in Frameworks */,
-				236483EA21FA33E20069710E /* RestKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				236483D321FA31540069710E /* AppDelegate.swift */,
-				236483D521FA31540069710E /* ViewController.swift */,
+				2364840D21FA45040069710E /* Supporting Files */,
+				2364843021FA47700069710E /* CameraViewController.swift */,
+				2364843F21FA55B90069710E /* ClassifyViewController.swift */,
+				2364843121FA47700069710E /* CameraViewController+Heatmap.swift */,
+				2364843221FA47700069710E /* ResultsTableViewCell.swift */,
+				2364842F21FA47700069710E /* ResultsTableViewController.swift */,
 				236483D721FA31540069710E /* Main.storyboard */,
 				236483DD21FA31570069710E /* Assets.xcassets */,
 				236483DF21FA31570069710E /* LaunchScreen.storyboard */,
@@ -83,6 +127,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2364840D21FA45040069710E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2364840E21FA45040069710E /* SwiftSpinner.swift */,
+				2364840F21FA45040069710E /* AKPickerView.swift */,
+				2364842D21FA46BE0069710E /* VisualRecognition+Helpers.swift */,
+				2364844121FA6BCC0069710E /* RoundedButton.swift */,
+				2364841021FA45040069710E /* ProgressBar.swift */,
+				2364841121FA45040069710E /* Pulley Framework */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2364841121FA45040069710E /* Pulley Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2364842621FA452C0069710E /* PulleyPassthroughScrollView.swift */,
+				2364842721FA452C0069710E /* PulleyViewController.swift */,
+				2364842821FA452C0069710E /* UIView+constrainToParent.swift */,
+				2364842521FA452C0069710E /* UIViewController+PulleyViewController.swift */,
+			);
+			path = "Pulley Framework";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -93,6 +161,7 @@
 				236483CC21FA31540069710E /* Sources */,
 				236483CD21FA31540069710E /* Frameworks */,
 				236483CE21FA31540069710E /* Resources */,
+				2364843B21FA4D6F0069710E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,9 +223,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				236483D621FA31540069710E /* ViewController.swift in Sources */,
+				2364842A21FA452C0069710E /* PulleyPassthroughScrollView.swift in Sources */,
+				2364842C21FA452C0069710E /* UIView+constrainToParent.swift in Sources */,
+				2364844021FA55B90069710E /* ClassifyViewController.swift in Sources */,
+				2364842921FA452C0069710E /* UIViewController+PulleyViewController.swift in Sources */,
+				2364841B21FA45040069710E /* AKPickerView.swift in Sources */,
+				2364841A21FA45040069710E /* SwiftSpinner.swift in Sources */,
 				236483D421FA31540069710E /* AppDelegate.swift in Sources */,
+				2364843321FA47700069710E /* ResultsTableViewController.swift in Sources */,
+				2364843521FA47700069710E /* CameraViewController+Heatmap.swift in Sources */,
+				2364841C21FA45040069710E /* ProgressBar.swift in Sources */,
+				2364843621FA47700069710E /* ResultsTableViewCell.swift in Sources */,
+				2364844221FA6BCC0069710E /* RoundedButton.swift in Sources */,
 				236483DC21FA31540069710E /* watson_classify_train.xcdatamodeld in Sources */,
+				2364842E21FA46BE0069710E /* VisualRecognition+Helpers.swift in Sources */,
+				2364843421FA47700069710E /* CameraViewController.swift in Sources */,
+				2364842B21FA452C0069710E /* PulleyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
